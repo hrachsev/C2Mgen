@@ -1,6 +1,6 @@
 # C2Mgen — Point Cloud to Mesh Generator
 
-C2Mgen is a desktop application that loads **PLY** point clouds, reconstructs a **triangle mesh** with several algorithms implemented from scratch in C++, and exports **OBJ**. The UI uses a split 3D view (point cloud on the left, mesh on the right), an ImGui control panel, and background jobs with a progress bar.
+C2Mgen is a desktop application that loads point clouds, reconstructs a **triangle mesh** with several algorithms implemented from scratch in C++, and exports 3D mesh. The UI uses a split 3D view (point cloud on the left, mesh on the right), an ImGui control panel, and background jobs with a progress bar.
 
 Third-party dependencies are limited to **GLFW**, **Dear ImGui**, **GLM**, and system **OpenGL** (fixed-function pipeline for rendering). GLFW, GLM, and ImGui are fetched automatically by CMake on first configure.
 
